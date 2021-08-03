@@ -196,6 +196,11 @@ dg_dt &lt;- D(expr = gt, name = &quot;t&quot;)
 
 dg_dt</code></pre>
 <pre><code>## 3 * (2 * t) + 4 * sin(t)</code></pre>
+<pre class="r"><code># some examples
+
+ht &lt;- expression(4*t^4 - 3*t^3 + 2*t^2 - t)
+
+dh_dt &lt;- D(expr = ht, name = &quot;t&quot;)</code></pre>
 </div>
 
 
