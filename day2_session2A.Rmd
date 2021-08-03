@@ -40,6 +40,8 @@ dg_dt
 ht <- expression(4*t^4 - 3*t^3 + 2*t^2 - t)
 
 dh_dt <- D(expr = ht, name = "t")
+
+dh_dt
 ```
 
 
